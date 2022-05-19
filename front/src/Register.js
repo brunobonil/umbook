@@ -38,7 +38,6 @@ const Register = () => {
               setMessage(response.data.msg);
             })
             .catch(function (error) {
-              console.log(error.response.data)
               setMessage(error.response.data.msg);
             });
             
