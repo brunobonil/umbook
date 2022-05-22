@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Formik, Field, Form } from 'formik';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 import "./login.css";
 
 
 const Login = () => {
-
+    const navigate = useNavigate()
     const [message, setMessage] = useState(null);
 
     return (
@@ -33,7 +34,11 @@ const Login = () => {
             .then(function (response) {
                 console.log('access token',response.data.access)
                 console.log('refresh token', response.data.refresh)
+                localStorage.setItem("access token", response.data.access);
+                localStorage.setItem("refresh token", response.data.refresh);
                 setMessage('estas registrado');
+                navigate('/home/')
+
             })
             .catch(function (error) {
                 console.log(error)
