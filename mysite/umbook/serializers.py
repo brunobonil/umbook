@@ -29,3 +29,13 @@ class UsuarioSerializer(serializers.ModelSerializer):
         user.save()
 
         return user
+
+class UsuarioPreviewSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Usuario
+        fields = (
+            "pk",
+            "username",
+            "first_name",
+            "last_name"
+        )

@@ -3,9 +3,13 @@ from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
-from .vistas.register import RegisterView
+from .vistas.Register import RegisterView
+from .vistas.SearchUser import SearchUserView
 
 urlpatterns = [
+
+    # Friends module
+    path('users/<query>/', SearchUserView.as_view(), name='query_users'),
 
     # Register urls
     path('register/', RegisterView.as_view(), name='register'),
