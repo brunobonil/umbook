@@ -11,8 +11,9 @@ class RegisterView(GenericAPIView):
     Las comprobaciones son realizadas por el serializador,
     UsuarioSerializer.
     """
-    def post(self, request, **kwars):
 
+    serializer_class = UsuarioSerializer
+    def post(self, request, **kwars):
         s = UsuarioSerializer(data=request.data)
 
         if s.is_valid():
