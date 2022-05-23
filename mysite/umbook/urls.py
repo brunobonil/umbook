@@ -5,11 +5,15 @@ from rest_framework_simplejwt.views import (
 )
 from .vistas.Register import RegisterView
 from .vistas.SearchUser import SearchUserView
+from .vistas.AddFriend import AddFriendView
+from .vistas.AcceptFriendRequest import AcceptFriendRequestView
 
 urlpatterns = [
 
     # Friends module
     path('users/<query>/', SearchUserView.as_view(), name='query_users'),
+    path('add_friend/<userID>/', AddFriendView.as_view(), name='add_friend'),
+    path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
 
     # Register urls
     path('register/', RegisterView.as_view(), name='register'),

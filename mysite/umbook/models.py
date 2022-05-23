@@ -2,19 +2,17 @@ from django.db import models
 from django.db.models import CASCADE
 from django.contrib.auth.models import AbstractUser
 
-# Create your models here.
-# class Usuario(models.Model):
-#     username = models.CharField(max_length=15)
-#     password = models.CharField(max_length=30)
-#     isAdmin = models.BooleanField()
 
 class Usuario(AbstractUser):
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
+    amigos = models.ManyToManyField("Usuario", blank=True)
 
 class Notificacion(models.Model):
-    contenido = models.CharField(max_length=200)
-    link = models.CharField(max_length=30)
+    propietario = models.ForeignKey(Usuario, on_delete=models.CASCADE, related_name="propietario", default=None)
+    emisor = models.ForeignKey(Usuario, on_delete=models.CASCADE, related_name="emisor", default=None)
+    contenido = models.CharField(max_length=200, default="")
+    link = models.CharField(max_length=30, default="")
 
 class Comentario(models.Model):
     username = models.ForeignKey(Usuario, on_delete=CASCADE)

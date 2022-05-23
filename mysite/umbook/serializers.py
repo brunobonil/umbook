@@ -34,6 +34,7 @@ class UsuarioSerializer(serializers.ModelSerializer):
 
         return user
 
+
 class UsuarioPreviewSerializer(serializers.ModelSerializer):
     """
     Serializador para el modelo Usuario. Utilizado para devolver usuarios de la
@@ -48,3 +49,9 @@ class UsuarioPreviewSerializer(serializers.ModelSerializer):
             "first_name",
             "last_name"
         )
+
+
+class NotificacionesSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = Notificacion
+        fields = "__all__"
