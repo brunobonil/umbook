@@ -3,6 +3,10 @@ from .models import *
 from django.contrib.auth.password_validation import validate_password
 
 class UsuarioSerializer(serializers.ModelSerializer):
+    """
+    Serializador para el modelo Usuario. Utilizado en el registro de usuarios.
+    Posee las validaciones necesarias para registrar a un usuario de forma correcta.
+    """
     email = serializers.EmailField(required=True)
     password = serializers.CharField(write_only=True, required=True, validators=[])
     password2 = serializers.CharField(write_only=True, required=True)
@@ -29,3 +33,18 @@ class UsuarioSerializer(serializers.ModelSerializer):
         user.save()
 
         return user
+
+class UsuarioPreviewSerializer(serializers.ModelSerializer):
+    """
+    Serializador para el modelo Usuario. Utilizado para devolver usuarios de la
+    base de datos, con sus datos minimos. Muestra unicamente id, username,
+    first_name y last_name.
+    """
+    class Meta:
+        model = Usuario
+        fields = (
+            "pk",
+            "username",
+            "first_name",
+            "last_name"
+        )
