@@ -1,4 +1,4 @@
 db.sqlite3
 umbookvenv/
 __pycache__/
-**/logs
+# **/logs
