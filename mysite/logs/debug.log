@@ -31,3 +31,48 @@ INFO "POST /api/token/ HTTP/1.1" 200 489
 INFO "POST /api/token/ HTTP/1.1" 200 489
 INFO "POST /api/token/ HTTP/1.1" 200 489
 INFO "GET /api/users/amigo/ HTTP/1.1" 200 23
+WARNING "GET /api/users// HTTP/1.1" 404 3249
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET / HTTP/1.1" 404 2163
+INFO "GET /api/users/a/ HTTP/1.1" 200 31282
+INFO Watching for file changes with StatReloader
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "GET /api/users/amigo/ HTTP/1.1" 200 23
+INFO "GET /api/users/amigo/ HTTP/1.1" 200 23
+INFO "GET /api/users/amigo/ HTTP/1.1" 200 23
+WARNING "GET / HTTP/1.1" 404 2163
+WARNING "GET /api/ HTTP/1.1" 404 3631
+INFO "GET /api/users/a/ HTTP/1.1" 200 31282
+WARNING "GET /api/friends HTTP/1.1" 404 3652
+WARNING "GET /api/friends/ HTTP/1.1" 404 3655
+INFO "GET /api/users/a/ HTTP/1.1" 200 31282
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /sale/ HTTP/1.1" 400 71515
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /sale/ HTTP/1.1" 400 71515
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71548
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+INFO "POST /api/token/ HTTP/1.1" 200 483

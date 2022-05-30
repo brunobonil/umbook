@@ -1,6 +1,8 @@
 import AddFriendBtn from "./AddFriendBtn";
 
 const ListUsers = ({usuariosEncontrados}) => {
+
+
     return (
         <div>            
             {usuariosEncontrados && 
