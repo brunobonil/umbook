@@ -1,3 +1,4 @@
+import AddFriendBtn from "./AddFriendBtn";
 
 const ListUsers = ({usuariosEncontrados}) => {
     return (
@@ -7,7 +8,7 @@ const ListUsers = ({usuariosEncontrados}) => {
                     <h1>{usuariosEncontrados.results} usuarios encontrados</h1>
                     {
                         usuariosEncontrados.data.map((usuario) => 
-                            <li key={usuario.pk}>{usuario.username}</li>
+                            <li key={usuario.pk}>{usuario.username} {<AddFriendBtn userID={usuario.pk}/>}</li>
                         )
                     }
                 </div>
