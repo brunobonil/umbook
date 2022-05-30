@@ -8,7 +8,7 @@ const Register = () => {
   const [message, setMessage] = useState(null);
 
 
-  function logearUsuario(values){
+  function registrarUsuario(values){
     alert(JSON.stringify(values, null, 2));
     axios.post('http://127.0.0.1:8000/api/register/', {
       email: values.email,
@@ -40,7 +40,7 @@ const Register = () => {
             last_name: '',
           }}
           onSubmit={async (values) => {
-            logearUsuario(values);
+            registrarUsuario(values);
           }}
         >
           <Form className='form'>
@@ -75,7 +75,7 @@ const Register = () => {
               id="username" 
               name="username" 
               placeholder="username" />
-            <label htmlFor="first name">confirm password</label>
+            <label htmlFor="first name">first name</label>
             <Field
               className="input-container"
               id="first_name"
@@ -84,7 +84,7 @@ const Register = () => {
               type="text"
             />
 
-            <label htmlFor="last name">confirm password</label>
+            <label htmlFor="last name">last name</label>
             <Field
               className="input-container"
               id="last_name"

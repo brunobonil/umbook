@@ -34,7 +34,10 @@ const Navbar1 = ({ setUsuariosEncontrados}) => {
                         <button type="submit">Search user</button>
                     </Form>
                 </Formik>       
-
+                <Link to="/notifications/">
+                    <button>Notificaciones</button>
+                </Link>
+                
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         My Account

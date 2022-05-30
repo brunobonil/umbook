@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 import "./login.css";
 
 
-const Login = ({setIsSubmitted}) => {
+const Login = ({setUser}) => {
 
     const [message, setMessage] = useState(null);
 
-    function registrarUsuario(values){
+    function logearUsuario(values){
       alert(JSON.stringify(values, null, 2));
       axios.post('http://127.0.0.1:8000/api/token/', {
 
@@ -25,7 +25,8 @@ const Login = ({setIsSubmitted}) => {
         localStorage.setItem("access token", response.data.access);
         localStorage.setItem("refresh token", response.data.refresh);
         setMessage('estas registrado');
-        setIsSubmitted(true);
+        setUser(values.username)
+
 
         })
       .catch(function (error) {
@@ -47,7 +48,7 @@ const Login = ({setIsSubmitted}) => {
           }}
           onSubmit={async (values) => {
 
-            registrarUsuario(values);
+            logearUsuario(values);
 
           }}
         >

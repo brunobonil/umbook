@@ -5,6 +5,8 @@ const ListFriends = () => {
 
     const [friends, setFriends] = useState(null);
     
+    let token = localStorage['access token'];
+
     function getFriends(){
         axios.get('http://localhost:8000/api/friends/',
         {

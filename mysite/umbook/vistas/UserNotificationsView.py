@@ -1,4 +1,5 @@
 # REST framework imports
+from httplib2 import Authentication
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
@@ -11,12 +12,10 @@ from ..models import Notificacion
 
 
 class UserNotificationsView(GenericAPIView):
-    permission_classes = (
-        IsAuthenticated,
-    )
+    permission_classes = [IsAuthenticated]
+
 
     def get(self, request, **kwargs):
-
         notifications = Notificacion.objects.filter(propietario=request.user)
         s_notifications = [NotificacionesSerializers(notif).data for notif in notifications]
 
