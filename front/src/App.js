@@ -7,28 +7,36 @@ import './app.css';
 import Navbar1 from "./Navbar1";
 import ListUsers from "./ListUsers";
 import { useState } from "react";
+import ListFriends from "./ListFriends";
+
+const Home = () => {
+  return ( <h1>Home</h1> );
+}
+ 
+
 
 function App() {
   console.log('local storage', localStorage)
   const [usuariosEncontrados, setUsuariosEncontrados] = useState(null);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
+  console.log(localStorage['access token'])
   return (
     <div>
       <Router>
-        {isSubmitted === true && 
+        {localStorage['access token'] &&
         <>
         <Navbar1 setUsuariosEncontrados={setUsuariosEncontrados}/>
         <Routes>     
+          <Route exact path='/' element={<Home/>} />
           <Route exact path="/register/" element={<Register/>}/>   
           <Route exact path="/upload-photo" element={<UploadPhoto/>}/>   
           <Route exact path="/list-users/" element={<ListUsers usuariosEncontrados={usuariosEncontrados}/>}/>
+          <Route exact path="/friends/" element={<ListFriends/>} />
         </Routes>            
         </>
         }
 
-        {isSubmitted === false &&
-        <Login setIsSubmitted={setIsSubmitted}/>
+        {!localStorage['access token'] &&
+        <Login />
         }
       </Router>
     </div>

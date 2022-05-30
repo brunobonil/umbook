@@ -21,7 +21,7 @@ urlpatterns = [
     path('users/<query>/', SearchUserView.as_view(), name='query_users'),
     path('add_friend/<userID>/', AddFriendView.as_view(), name='add_friend'),
     path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
-    # path('friends/', ListFriendsView.as_view(), name='friends'),
+    #path('friends/', ListFriendsView.as_view(), name='friends'),
 
     # Register urls
     path('register/', RegisterView.as_view(), name='register'),

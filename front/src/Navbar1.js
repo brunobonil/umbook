@@ -1,10 +1,10 @@
 import { Formik, Field, Form } from 'formik';
 import axios from 'axios';
-import {Navbar, Container} from 'react-bootstrap'
-import { useNavigate } from "react-router-dom";
+import {Navbar, Container, Dropdown} from 'react-bootstrap'
+import { Link, useNavigate } from "react-router-dom";
 
 
-const Navbar1 = ({setUsuariosEncontrados}) => {
+const Navbar1 = ({ setUsuariosEncontrados}) => {
     let navigate = useNavigate();
     function buscarUsuario(values){
         alert(JSON.stringify(values, null, 2));
@@ -16,8 +16,10 @@ const Navbar1 = ({setUsuariosEncontrados}) => {
 
     return ( 
         <Navbar expand="lg" bg="dark" variant="dark">    
-            <Container fluid>
-                <Navbar.Brand >Umbook</Navbar.Brand>
+            <Container>
+                <Link to='/'>
+                    <Navbar.Brand >Umbook</Navbar.Brand>
+                </Link>
                 
                 <Formik
                     initialValues={{
@@ -31,7 +33,17 @@ const Navbar1 = ({setUsuariosEncontrados}) => {
                         <Field id="search" name="search" placeholder="search friend" />
                         <button type="submit">Search user</button>
                     </Form>
-                </Formik>                                                                 
+                </Formik>       
+
+                <Dropdown>
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        My Account
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                        <Dropdown.Item href="/friends/">My friends</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>                     
             </Container>
         </Navbar>  
      );
