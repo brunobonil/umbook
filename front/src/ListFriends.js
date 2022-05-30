@@ -28,21 +28,23 @@ const ListFriends = () => {
 
 
     return (
-    <div>
-    {
-        friends && 
-        (
-            friends.map(friend =>
-                <div>
-                    <h1>{friend.username}</h1>
-                    <h2>{friend.first_name}</h2>
-                    <h2>{friend.last_name}</h2>
-                </div>
-            
-            )
-        )
-    }   
-    </div>
+        <div >
+        {
+            friends && 
+            <div className='content'>
+                <h1>Listando amigos</h1>
+                {
+                friends.map(friend =>
+                    <div key={friend.pk}>
+                        <h2>{friend.username}</h2>
+                        <li>{friend.first_name}</li>
+                        <li>{friend.last_name}</li>
+                    </div>
+                )
+                }
+            </div>
+        }   
+        </div>
     );
 }
  
