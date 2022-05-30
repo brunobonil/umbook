@@ -10,11 +10,9 @@ const ListFriends = () => {
     function getFriends(){
         axios.get('http://0.0.0.0:8000/friends/',     
         {
-        }, 
-        {
             headers : {
                 'Content-Type' : 'application/json',
-                'Authorization' : `Bearer ${token}`,
+                'Authorization' :  `Bearer ${localStorage.getItem('access token')}`,
                 'accept': 'application/json'
                 }    
                   },

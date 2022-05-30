@@ -1,30 +1,58 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 const UserNotifications = () => {
 
-    let token = localStorage['access token'];
-    console.log('access token '+token)
-    useEffect(() => {
-        axios.get('http://127.0.0.1:8000/api/notifications/', 
-                  {},
-                  {
-                    headers : {
-                    'Content-Type' : 'application/json',
-                    'Authorization' : `Bearer ${token}`,
-                    'accept': 'application/json'
-                    }    
-                  },
-                  ).then(resp => {
-        // resp.data = [lista de notificaciones de mi usuario (objetos notificacion serializados) ]
-        // resp.len = cantidad de notificaciones que tiene mi usuario
-        console.log(resp);
-});
+  const [notifications, setNotifications] = useState('');
+  function getNotifications(){
+    axios.get('http://127.0.0.1:8000/api/notifications/',
+      {
+         headers : {
+         'Content-Type' : 'application/json',
+         'Authorization' : `Bearer ${localStorage.getItem('access token')}`,
+         'accept': 'application/json'
+         }    
+      }
+      ).then(resp => {
+            setNotifications(resp.data)
+      }).catch(e => {
+      // if (e.response.status === 401){
+      //   console.log('no autorizado')
+      //   axios.post('http://127.0.0.1:8000/api/token/refresh/', {
+      //     refresh: refreshToken
+      //   })  
+      //   .then(function (response) {
+      //     console.log('refreshing')
+       //     console.log(response);
+       //     setAccessToken(response.data.access)
+                    //   })
+                    // }
+        })
 
-    })
+  }
+
+  useEffect(() => {
+    getNotifications();
+    }, [])
 
     return ( 
-        <h1>NOTIFICATIONS</h1>
+        <div >
+        { notifications && 
+
+            <div className='content'>
+                <h1>Mis notificaciones</h1>
+                {
+                notifications.data.map(notification =>
+                    <div key={notification.id}>
+                      <h2>({notification.id}) {notification.contenido}</h2>
+                      <p>from: {notification.emisor}</p>
+
+                    </div>
+                )
+                }
+            </div>
+        }   
+        </div>
      );
 }
  

@@ -35,6 +35,14 @@ REST_FRAMEWORK = {
     ]
 }
 
+# jwt
+from datetime import timedelta
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=30),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+    }
+
+
 # Auth settings
 
 AUTH_USER_MODEL = 'umbook.Usuario'
