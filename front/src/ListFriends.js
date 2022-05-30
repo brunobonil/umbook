@@ -6,11 +6,11 @@ const ListFriends = () => {
     const [friends, setFriends] = useState(null);
     
     function getFriends(){
-        axios.get('http://0.0.0.0:8000/friends/',     
+        axios.get('http://localhost:8000/api/friends/',
         {
-            params: {
-                // usuario al que quiero buscar sus amigos que seria el q hizo login
-                    }
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem('access token')}`
+            }
         }
             ).then(resp => {
                 console.log(resp)
