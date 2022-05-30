@@ -5,13 +5,19 @@ const ListFriends = () => {
 
     const [friends, setFriends] = useState(null);
     
+    let token = localStorage['access token'];
+
     function getFriends(){
         axios.get('http://0.0.0.0:8000/friends/',     
         {
-            params: {
-                // usuario al que quiero buscar sus amigos que seria el q hizo login
-                    }
-        }
+        }, 
+        {
+            headers : {
+                'Content-Type' : 'application/json',
+                'Authorization' : `Bearer ${token}`,
+                'accept': 'application/json'
+                }    
+                  },
             ).then(resp => {
                 console.log(resp)
                 setFriends(resp.data);

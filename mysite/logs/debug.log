@@ -76,3 +76,1096 @@ ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to
 WARNING "GET /friends/ HTTP/1.1" 400 71548
 INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
 INFO "POST /api/token/ HTTP/1.1" 200 483
+INFO Watching for file changes with StatReloader
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "POST /api/token/ HTTP/1.1" 200 483
+INFO "POST /api/token/ HTTP/1.1" 200 489
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71433
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71433
+INFO "GET /api/users/amigo/ HTTP/1.1" 200 23
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71433
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71433
+INFO "GET /api/users/amigo/ HTTP/1.1" 200 23
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71433
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71433
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/SingleNotificationView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/SingleNotificationView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET / HTTP/1.1" 404 2163
+WARNING "GET /favicon.ico HTTP/1.1" 404 2214
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO "GET /admin/ HTTP/1.1" 200 3575
+INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/admin.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /admin/ HTTP/1.1" 200 4025
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 5019
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO "GET /admin/umbook/notificacion/add/ HTTP/1.1" 200 17620
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO "POST /admin/umbook/notificacion/add/ HTTP/1.1" 200 17792
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "POST /admin/umbook/notificacion/add/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 6427
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/notificacion/1/change/ HTTP/1.1" 200 17956
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "POST /admin/umbook/notificacion/1/change/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 6429
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/notificacion/1/change/ HTTP/1.1" 200 17956
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "POST /admin/umbook/notificacion/1/change/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 6429
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/notificacion/1/change/ HTTP/1.1" 200 17956
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/notificacion/1/change/ HTTP/1.1" 200 17956
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+WARNING "GET / HTTP/1.1" 404 2163
+INFO "GET /api/users/a/ HTTP/1.1" 200 31282
+WARNING "GET /api/ HTTP/1.1" 404 3631
+INFO "GET /api/notifications HTTP/1.1" 301 0
+WARNING "GET /api/notifications/ HTTP/1.1" 401 10005
+WARNING "GET /api/notifications/ HTTP/1.1" 401 10005
+WARNING "GET /api/notifications/ HTTP/1.1" 401 10005
+WARNING "GET /api/notifications/ HTTP/1.1" 401 10005
+WARNING "GET /api/notifications/ HTTP/1.1" 401 10005
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+INFO "GET /api/users/jlo/ HTTP/1.1" 200 10293
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+WARNING "POST /api/token/ HTTP/1.1" 401 63
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "GET /api/users/santi/ HTTP/1.1" 200 105
+INFO "GET /admin/umbook/usuario/ HTTP/1.1" 200 28007
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/usuario/101/change/ HTTP/1.1" 200 21932
+INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO "POST /admin/umbook/usuario/101/change/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/usuario/ HTTP/1.1" 200 28214
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/usuario/101/change/ HTTP/1.1" 200 21849
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+WARNING "POST /api/token/ HTTP/1.1" 401 63
+WARNING "POST /api/token/ HTTP/1.1" 401 63
+INFO "GET /admin/umbook/usuario/ HTTP/1.1" 200 28007
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/usuario/101/change/ HTTP/1.1" 200 21849
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "POST /admin/umbook/usuario/101/change/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/usuario/ HTTP/1.1" 200 28214
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/usuario/101/change/ HTTP/1.1" 200 21849
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "POST /api/token/ HTTP/1.1" 401 63
+WARNING "POST /api/token/ HTTP/1.1" 401 63
+WARNING "POST /api/token/ HTTP/1.1" 400 45
+WARNING "POST /api/token/ HTTP/1.1" 401 63
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET / HTTP/1.1" 404 2163
+INFO "OPTIONS /api/register/ HTTP/1.1" 200 0
+ERROR Internal Server Error: /api/register/
+ERROR "POST /api/register/ HTTP/1.1" 500 100
+INFO "POST /api/register/ HTTP/1.1" 200 39
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+INFO "POST /api/token/ HTTP/1.1" 200 489
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO "GET /admin/umbook/usuario/ HTTP/1.1" 200 28004
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /admin/umbook/usuario/102/change/ HTTP/1.1" 200 21953
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+WARNING "GET /user/ HTTP/1.1" 404 2196
+INFO "GET /api/users/a/ HTTP/1.1" 200 31505
+INFO "GET /api/users/rolo HTTP/1.1" 301 0
+INFO "GET /api/users/rolo/ HTTP/1.1" 200 10316
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET / HTTP/1.1" 404 2163
+WARNING "GET /favicon.ico HTTP/1.1" 404 2214
+WARNING "GET /api/token/ HTTP/1.1" 405 12475
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO "POST /api/token/ HTTP/1.1" 200 12925
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO "GET /api/users/pasaporte/ HTTP/1.1" 200 23
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71514
+ERROR Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING "GET /friends/ HTTP/1.1" 400 71514
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+INFO "POST /api/token/ HTTP/1.1" 200 489
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+INFO "POST /api/token/ HTTP/1.1" 200 489
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 17, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7fe5818c39a0>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158636
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 17, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7fe5818fda60>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158636
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO "GET /api/notifications HTTP/1.1" 301 0
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 183
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4b640f10>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158786
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4ad8a2e0>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158786
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4ada3a60>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158786
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4a3de6d0>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158786
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4a38bc10>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158817
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4ad701c0>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158817
+INFO "OPTIONS /api/token/ HTTP/1.1" 200 0
+INFO "POST /api/token/ HTTP/1.1" 200 489
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4b6e3910>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158786
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/contrib/auth/models.py", line 420, in __int__
+    raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.user)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7f2f4b653850>.
+ERROR "GET /api/notifications/ HTTP/1.1" 500 158786
+WARNING "GET / HTTP/1.1" 404 2163
+WARNING "GET /favicon.ico HTTP/1.1" 404 2214
+WARNING "GET /api/token/ HTTP/1.1" 405 12475
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "POST /api/token/ HTTP/1.1" 200 12925
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'pk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.pk)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'pk'
+ERROR "GET /api/notifications/ HTTP/1.1" 500 103084
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'pk'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py", line 20, in get
+    notifications = Notificacion.objects.filter(propietario=request.pk)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'pk'
+ERROR "GET /api/notifications/ HTTP/1.1" 500 103084
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "POST /api/token/ HTTP/1.1" 200 12925
+WARNING "GET / HTTP/1.1" 404 2163
+INFO "GET /admin HTTP/1.1" 301 0
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO "GET /admin/ HTTP/1.1" 200 5591
+INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 6200
+INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO "GET /admin/umbook/notificacion/1/change/ HTTP/1.1" 200 18040
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO "POST /admin/umbook/notificacion/1/change/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 6429
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /admin/umbook/notificacion/1/change/ HTTP/1.1" 200 18040
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "POST /admin/umbook/notificacion/1/change/ HTTP/1.1" 302 0
+INFO "GET /admin/umbook/notificacion/ HTTP/1.1" 200 6429
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/mysite/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING "GET /api/notifications/ HTTP/1.1" 401 58
+INFO /home/jlocamuz/motivation/umbook/mysite/mysite/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+ERROR "GET /api/notifications/ HTTP/1.1" 500 135900
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+ERROR "GET /api/notifications/ HTTP/1.1" 500 135900
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 394, in initialize_request
+    authenticators=self.get_authenticators(),
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 272, in get_authenticators
+    return [auth() for auth in self.authentication_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+ERROR "GET /api/notifications/ HTTP/1.1" 500 85304
+ERROR Internal Server Error: /api/notifications/
+Traceback (most recent call last):
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 394, in initialize_request
+    authenticators=self.get_authenticators(),
+  File "/home/jlocamuz/.local/lib/python3.8/site-packages/rest_framework/views.py", line 272, in get_authenticators
+    return [auth() for auth in self.authentication_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+ERROR "GET /api/notifications/ HTTP/1.1" 500 85304
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /home/jlocamuz/motivation/umbook/mysite/umbook/vistas/UserNotificationsView.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
+INFO "GET /api/notifications/ HTTP/1.1" 200 23
