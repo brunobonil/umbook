@@ -7,13 +7,21 @@ from .vistas.Register import RegisterView
 from .vistas.SearchUser import SearchUserView
 from .vistas.AddFriend import AddFriendView
 from .vistas.AcceptFriendRequest import AcceptFriendRequestView
+from .vistas.UserNotificationsView import UserNotificationsView
+from .vistas.SingleNotificationView import SinleNotificationView
+from .vistas.ListFriendsView import ListFriendsView
 
 urlpatterns = [
+
+    # Notification module
+    path('notifications/', UserNotificationsView.as_view(), name='notifications'),
+    path('notifications/<notificationID>/', SinleNotificationView.as_view(), name='single_notification'),
 
     # Friends module
     path('users/<query>/', SearchUserView.as_view(), name='query_users'),
     path('add_friend/<userID>/', AddFriendView.as_view(), name='add_friend'),
     path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
+    # path('friends/', ListFriendsView.as_view(), name='friends'),
 
     # Register urls
     path('register/', RegisterView.as_view(), name='register'),
