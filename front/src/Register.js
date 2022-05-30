@@ -7,6 +7,25 @@ const Register = () => {
   
   const [message, setMessage] = useState(null);
 
+
+  function logearUsuario(values){
+    alert(JSON.stringify(values, null, 2));
+    axios.post('http://127.0.0.1:8000/api/register/', {
+      email: values.email,
+      password:values.password,
+      password2:values.password2,
+      username: values.username,
+      first_name: values.first_name,
+      last_name: values.last_name
+      })
+    .then(function (response) {
+      setMessage(response.data.msg);
+      })
+    .catch(function (error) {
+      setMessage(error.response.data.msg);
+      });  
+  }
+
   return( 
     <div className='app'>
       <h1 className='title'>Sign Up</h1>
@@ -21,26 +40,7 @@ const Register = () => {
             last_name: '',
           }}
           onSubmit={async (values) => {
-            await new Promise((r) => setTimeout(r, 500));
-            alert(JSON.stringify(values, null, 2));
-
-            axios.post('http://127.0.0.1:8000/api/register/', {
-              email: values.email,
-              password:values.password,
-              password2:values.password2,
-              username: values.username,
-              first_name: values.first_name,
-              last_name: values.last_name
-            
-
-            })
-            .then(function (response) {
-              setMessage(response.data.msg);
-            })
-            .catch(function (error) {
-              setMessage(error.response.data.msg);
-            });
-            
+            logearUsuario(values);
           }}
         >
           <Form className='form'>
