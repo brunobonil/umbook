@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import UserData from "./UserData";
+import SolicitudAmistad from "./SolicitudAmistad";
 
 
 const UserNotifications = () => {
@@ -49,9 +50,10 @@ const UserNotifications = () => {
                 {
                 notifications.data.map(notification =>
                     <div key={notification.id}>
-                      <h2>({notification.id}) {notification.contenido}</h2>
-                      <UserData notificationId={notification.id}/>
-
+                      {
+                        notification.contenido === 'Solicitud de amistad' && 
+                        (<SolicitudAmistad notification={notification}/>)
+                      }
                     </div>
                 )
                 }
