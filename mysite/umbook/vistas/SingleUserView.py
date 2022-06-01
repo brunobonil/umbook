@@ -8,8 +8,10 @@ from ..serializers import *
 
 # Model imports
 from django.core.exceptions import ObjectDoesNotExist
+from ..models import Notificacion, Usuario
 
 
+# 'user/<notificationID>/'
 class SingleUserView(GenericAPIView):
     permission_classes = (
         IsAuthenticated,
@@ -18,9 +20,17 @@ class SingleUserView(GenericAPIView):
     def get(self, request, notificationID, **kwargs):
 
         try:
-            # Hacer un get de los modelos y serializarlo
+            notif = Notificacion.objects.get(pk=notificationID)
+            s_notif = NotificacionesSerializers(notif).data
+            emisor_id = s_notif['emisor']
+            emisor = Usuario.objects.get(id=emisor_id)
+            s_emisor = UsuarioSerializer(emisor).data
+            errors = None
+            status = 200
         except ObjectDoesNotExist:
-            # En caso de que el usuario no exita
+            s_notif = None
+            errors = "User does not exist."
+            status = 404
             
-        return Response({"data": s_notif, "err": errors}, status=status)
+        return Response({"data": s_emisor, "err": errors}, status=status)
 

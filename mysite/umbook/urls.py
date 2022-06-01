@@ -10,6 +10,7 @@ from .vistas.AcceptFriendRequest import AcceptFriendRequestView
 from .vistas.UserNotificationsView import UserNotificationsView
 from .vistas.SingleNotificationView import SinleNotificationView
 from .vistas.ListFriendsView import ListFriendsView
+from .vistas.SingleUserView import SingleUserView
 
 urlpatterns = [
 
@@ -22,6 +23,9 @@ urlpatterns = [
     path('add_friend/<userID>/', AddFriendView.as_view(), name='add_friend'),
     path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
     path('friends/', ListFriendsView.as_view(), name='friends'),
+
+    # get specific user information from a notification
+    path('user/<notificationID>/', SingleUserView.as_view(), name='get_user'),
 
     # Register urls
     path('register/', RegisterView.as_view(), name='register'),
