@@ -2,16 +2,23 @@ import { Formik, Field, Form } from 'formik';
 import axios from 'axios';
 import {Navbar, Container, Dropdown} from 'react-bootstrap'
 import { Link, useNavigate } from "react-router-dom";
+import { Navigate } from 'react-router-dom';
 
-
-const Navbar1 = ({ setUsuariosEncontrados}) => {
+const Navbar1 = ({setIsSubmitted, setUsuariosEncontrados}) => {
     let navigate = useNavigate();
+
     function buscarUsuario(values){
         alert(JSON.stringify(values, null, 2));
         axios.get('http://127.0.0.1:8000/api/users/'+values.search+'/').then(resp => {
             setUsuariosEncontrados(resp.data);
             navigate('/list-users/')
         });        
+    }
+
+    function logOut(){
+        localStorage.clear()
+        setIsSubmitted(false)
+        navigate('/')
     }
 
     return ( 
@@ -45,6 +52,7 @@ const Navbar1 = ({ setUsuariosEncontrados}) => {
 
                     <Dropdown.Menu>
                         <Dropdown.Item href="/friends/">My friends</Dropdown.Item>
+                        <Dropdown.Item onClick={() => logOut()} >Log out</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>                     
             </Container>

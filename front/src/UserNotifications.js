@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import UserData from "./UserData";
+
 
 const UserNotifications = () => {
 
   const [notifications, setNotifications] = useState('');
+
+
   function getNotifications(){
     axios.get('http://127.0.0.1:8000/api/notifications/',
       {
@@ -35,6 +39,7 @@ const UserNotifications = () => {
     getNotifications();
     }, [])
 
+
     return ( 
         <div >
         { notifications && 
@@ -45,7 +50,7 @@ const UserNotifications = () => {
                 notifications.data.map(notification =>
                     <div key={notification.id}>
                       <h2>({notification.id}) {notification.contenido}</h2>
-                      <p>from: {notification.emisor}</p>
+                      <UserData notificationId={notification.id}/>
 
                     </div>
                 )

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import "./login.css";
 
 
-const Login = ({setUser}) => {
+const Login = ({setIsSubmitted, setUser}) => {
 
     const [message, setMessage] = useState(null);
 
@@ -25,7 +25,8 @@ const Login = ({setUser}) => {
         localStorage.setItem("access token", response.data.access);
         localStorage.setItem("refresh token", response.data.refresh);
         setMessage('estas registrado');
-        setUser(values.username)
+        //setUser(values.username)
+        setIsSubmitted(true)
 
 
         })
