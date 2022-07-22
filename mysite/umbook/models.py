@@ -16,31 +16,19 @@ class Notificacion(models.Model):
 
 class Comentario(models.Model):
     username = models.ForeignKey(Usuario, on_delete=CASCADE)
-    #password = models.CharField(max_length=30) 
-
-    def delete():
-        pass
+    foto = models.ForeignKey('Foto', on_delete=CASCADE)
 
 class Grupo(models.Model):
     nombre = models.CharField(max_length=15)
     descripcion = models.CharField(max_length=50)
+    usuario = models.ForeignKey(Usuario, on_delete=CASCADE)
 
 class Album(models.Model):
     nombre = models.CharField(max_length=15)
-
-    def add():
-        pass
-
-    def delete():
-        pass
-
-    def modify():
-        pass
+    usuario = models.ForeignKey(Usuario, on_delete=CASCADE)
+    grupo = models.ForeignKey(Grupo, on_delete=CASCADE)
 
 class Foto(models.Model):
     caption = models.CharField(max_length=50)
     fecha = models.DateTimeField()
-
-    def delete():
-        pass
-
+    album = models.ForeignKey(Album, on_delete=CASCADE)
