@@ -21,7 +21,8 @@ class Comentario(models.Model):
 class Grupo(models.Model):
     nombre = models.CharField(max_length=15)
     descripcion = models.CharField(max_length=50)
-    usuario = models.ForeignKey(Usuario, on_delete=CASCADE)
+    propietario = models.ForeignKey(Usuario, on_delete=CASCADE)
+    miembros = models.ManyToManyField('Usuario', blank=True, related_name='miembros')
 
 class Album(models.Model):
     nombre = models.CharField(max_length=15)
