@@ -13,25 +13,23 @@ class ShowUserProfileView(GenericAPIView):
     )
 
     def get(self, request, userID, **kwargs):
-        # Controlar si es el propietario
-
-        # En caso de no ser el propietario
-        requested_user: Usuario = Usuario.objects.get(pk=userID)
-        groups = Grupo.objects.filter(propietario=requested_user)
-        albums: list(Album) = [g.album_set.all() for g in groups if request.user in g.miembros.all()]
         
-        """
-        Equivalente al one-liner:
+        requested_user: Usuario = Usuario.objects.get(pk=userID)
 
-        allowed_groups = []
-        for group in groups:
-            members = group.miembros.all()
-            if request.user in members:
-                allowed_groups.append(group)
-
-        """
-        print(f"\n\n\n\n{albums}\n\n\n\n")
-
+        # Controlar si es el propietario
+        if request.user == requested_user:
+            albums = [Album.objects.filter(usuario=requested_user),]
+        else:
+            # En caso de no ser el propietario
+            groups = Grupo.objects.filter(propietario=requested_user)
+            albums = [g.album_set.all() for g in groups if request.user in g.miembros.all()]
+            """
+            La linea anterior itera sobre los grupos del usuario solicitado y agrega a una lista
+            'auxiliar' aquellos en los que el usuario solicitante se encuentre. Por ultimo agrega
+            a la lista final (albums) los albums que referencian a los grupos dentro de la lista
+            auxiliar. De esta forma queda una lista con los albumes que el usuario solictante tiene
+            permiso de ver en base a los grupos en los que se encuentra.
+            """
         data = {
             "result": {
                 "user": UsuarioProfileSerializer(requested_user).data,
