@@ -29,6 +29,9 @@ class Album(models.Model):
     usuario = models.ForeignKey(Usuario, on_delete=CASCADE)
     grupo = models.ForeignKey(Grupo, on_delete=CASCADE)
 
+    def __str__(self):
+        return self.nombre
+
 class Foto(models.Model):
     caption = models.CharField(max_length=50)
     fecha = models.DateTimeField()

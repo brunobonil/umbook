@@ -51,7 +51,28 @@ class UsuarioPreviewSerializer(serializers.ModelSerializer):
         )
 
 
+class UsuarioProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Usuario
+        fields = [
+            "pk",
+            "username",
+            "first_name",
+            "last_name",
+            "email",
+        ]
+
 class NotificacionesSerializers(serializers.ModelSerializer):
     class Meta:
         model = Notificacion
         fields = "__all__"
+
+class AlbumSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Album
+        fields = (
+            "pk",
+            "nombre",
+            "usuario",
+            "grupo",
+        )
