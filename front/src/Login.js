@@ -13,6 +13,7 @@ const Login = ({setIsSubmitted, setUser}) => {
 
     function logearUsuario(values){
       alert(JSON.stringify(values, null, 2));
+      localStorage.setItem("username" , values.username);
       axios.post('http://127.0.0.1:8000/api/token/', {
 
         username: values.username,

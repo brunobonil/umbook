@@ -15,5 +15,8 @@ class DenyFriendRequestView(GenericAPIView):
         IsAuthenticated,
     )
 
-    def get(self, request, requestID): 
-        return Response('denyfriendrequest')
+    def get(self, request, requestID, **kwargs): 
+        friend_request: Notificacion = Notificacion.objects.get(pk=requestID).delete()
+        return Response({
+            "msg": "Request denied",
+            })

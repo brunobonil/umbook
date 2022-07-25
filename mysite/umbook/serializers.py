@@ -62,6 +62,18 @@ class UsuarioProfileSerializer(serializers.ModelSerializer):
             "email",
         ]
 
+class UsuarioAdminSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Usuario
+        fields = [
+            "pk",
+            "username",
+            "first_name",
+            "last_name",
+            "email",
+            "is_active",
+            "is_admin",
+        ]
 
 class NotificacionesSerializers(serializers.ModelSerializer):
     class Meta:
