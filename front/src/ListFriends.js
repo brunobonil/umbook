@@ -1,11 +1,13 @@
 import { useState ,useEffect } from "react";
 import axios from "axios";
+import DeleteFriendBtn from "./DeleteFriendBtn";
 
 const ListFriends = () => {
 
     const [friends, setFriends] = useState(null);
     
     let token = localStorage['access token'];
+
 
     function getFriends(){
         axios.get('http://localhost:8000/api/friends/',
@@ -38,9 +40,11 @@ const ListFriends = () => {
                 {
                 friends.map(friend =>
                     <div key={friend.pk}>
-                        <h2>{friend.username}</h2>
-                        <li>{friend.first_name}</li>
-                        <li>{friend.last_name}</li>
+                        <li>
+                            {friend.username}
+                            <DeleteFriendBtn getFriends={getFriends} userID={friend.pk}/>
+                        </li>
+                        
                     </div>
                 )
                 }

@@ -15,5 +15,6 @@ class ListFriendsView(GenericAPIView):
 
     def get(self, request, **kwargs):
         friends = request.user.amigos.all()
+
         s_friends = [UsuarioPreviewSerializer(friend).data for friend in friends]
         return Response(s_friends, status=200)

@@ -13,6 +13,7 @@ from ..models import Notificacion, Usuario
 
 # 'user/<notificationID>/'
 class SingleUserView(GenericAPIView):
+
     permission_classes = (
         IsAuthenticated,
     )

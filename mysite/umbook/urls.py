@@ -5,10 +5,12 @@ from rest_framework_simplejwt.views import (
 )
 
 from .vistas.AdminUserView import AdminSingleUserView, AdminUserListCreateView
+from .vistas.DeleteFriend import DeleteFriendView
 from .vistas.Register import RegisterView
 from .vistas.SearchUser import SearchUserView
 from .vistas.AddFriend import AddFriendView
 from .vistas.AcceptFriendRequest import AcceptFriendRequestView
+from .vistas.DenyFriendRequest import DenyFriendRequestView
 from .vistas.UserNotificationsView import UserNotificationsView
 from .vistas.SingleNotificationView import SinleNotificationView
 from .vistas.ListFriendsView import ListFriendsView
@@ -27,11 +29,13 @@ urlpatterns = [
     # Friends module
     path('users/<query>/', SearchUserView.as_view(), name='query_users'),
     path('add_friend/<userID>/', AddFriendView.as_view(), name='add_friend'),
+    path('delete_friend/<userID>/', DeleteFriendView.as_view(), name='delete_friend'),
     path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
+    path('deny_friend/<requestID>/', DenyFriendRequestView.as_view(), name='deny_friend'),
     path('friends/', ListFriendsView.as_view(), name='friends'),
 
     # get specific user information from a notification
-    path('user/<notificationID>/', SingleUserView.as_view(), name='get_user'),
+    path('usern/<notificationID>/', SingleUserView.as_view(), name='get_user'),
 
     # Register urls
     path('register/', RegisterView.as_view(), name='register'),

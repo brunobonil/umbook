@@ -39,7 +39,5 @@ class ShowUserProfileView(GenericAPIView):
             "errors": None,
         }
 
-        
-
         return Response(data, status=200)
 

@@ -17,10 +17,28 @@ const SolicitudAmistad = ({notification}) => {
         })
         .then(function (response) {
             setMsg(response.data.msg)
-            ;
+        })
+        .catch(e => {
+            console.log(e);
         })
     }
 
+    function rechazarSolicitud(requestID){
+        axios.get('http://127.0.0.1:8000/api/deny_friend/'+requestID+'/',
+            {
+                headers : {
+                'Content-Type' : 'application/json',
+                'Authorization' : `Bearer ${localStorage.getItem('access token')}`,
+                'accept': 'application/json'
+            }    
+            })
+        .then(function (response) {
+            setMsg(response.data.msg)
+        })
+        .catch(e => {
+            console.log(e);
+        })
+    }
 
 
     return ( 
@@ -35,7 +53,8 @@ const SolicitudAmistad = ({notification}) => {
             <div>
                 <h2>Solicitud de amistad </h2>
                 <UserData notificationId={notification.id}/>
-                <button onClick={() => aceptarSolicitud(notification.id)}> aceptar </button>                
+                <button onClick={() => aceptarSolicitud(notification.id)}> aceptar </button>       
+                <button onClick={() => rechazarSolicitud(notification.id)}> rechazar </button>    
             </div>
             }
 
