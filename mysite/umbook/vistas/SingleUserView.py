@@ -13,6 +13,7 @@ from ..models import Notificacion, Usuario
 
 # 'user/<notificationID>/'
 class SingleUserView(GenericAPIView):
+
     permission_classes = (
         IsAuthenticated,
     )
@@ -20,6 +21,7 @@ class SingleUserView(GenericAPIView):
     def get(self, request, notificationID, **kwargs):
 
         try:
+            print('single user view')
             notif = Notificacion.objects.get(pk=notificationID)
             s_notif = NotificacionesSerializers(notif).data
             emisor_id = s_notif['emisor']

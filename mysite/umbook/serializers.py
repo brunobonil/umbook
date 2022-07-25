@@ -62,6 +62,7 @@ class UsuarioProfileSerializer(serializers.ModelSerializer):
             "email",
         ]
 
+
 class NotificacionesSerializers(serializers.ModelSerializer):
     class Meta:
         model = Notificacion

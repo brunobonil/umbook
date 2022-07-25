@@ -6,15 +6,14 @@ from rest_framework.permissions import IsAuthenticated
 # Serializers imports
 from ..serializers import *
 
+# Model imports
+from ..models import Notificacion
 
-class ListFriendsView(GenericAPIView):
+
+class DenyFriendRequestView(GenericAPIView):
     permission_classes = (
         IsAuthenticated,
     )
 
-
-    def get(self, request, **kwargs):
-        friends = request.user.amigos.all()
-
-        s_friends = [UsuarioPreviewSerializer(friend).data for friend in friends]
-        return Response(s_friends, status=200)
+    def get(self, request, requestID): 
+        return Response('denyfriendrequest')
