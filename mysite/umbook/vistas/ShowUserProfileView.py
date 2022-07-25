@@ -30,6 +30,7 @@ class ShowUserProfileView(GenericAPIView):
             auxiliar. De esta forma queda una lista con los albumes que el usuario solictante tiene
             permiso de ver en base a los grupos en los que se encuentra.
             """
+        
         data = {
             "result": {
                 "user": UsuarioProfileSerializer(requested_user).data,

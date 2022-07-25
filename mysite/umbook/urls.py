@@ -3,6 +3,8 @@ from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
+
+from .vistas.AdminUserView import AdminSingleUserView, AdminUserListCreateView
 from .vistas.Register import RegisterView
 from .vistas.SearchUser import SearchUserView
 from .vistas.AddFriend import AddFriendView
@@ -38,4 +40,8 @@ urlpatterns = [
     # Auth urls
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+
+    # Admin module
+    path('staff/user/', AdminUserListCreateView.as_view(), name='list/create_user'),
+    path('staff/user/<userID>/', AdminSingleUserView.as_view(), name='read/update_user_by_id')
 ]
