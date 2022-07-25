@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const UserData = ({notificationId}) => {
     const [userData, setUserData] = useState(null);
     function getDatosEmisor(notificationId){
-        axios.get('http://127.0.0.1:8000/api/user/'+notificationId+'/',
+        axios.get('http://127.0.0.1:8000/api/usern/'+notificationId+'/',
         {
              headers : {
             'Content-Type' : 'application/json',
@@ -13,7 +13,10 @@ const UserData = ({notificationId}) => {
             }    
         }
         ).then(resp => {
-                setUserData(resp.data.data)
+            setUserData(resp.data.data)
+        }) 
+        .catch(e => {
+            console.log(e);
         })
   }
 

@@ -28,11 +28,11 @@ function App() {
   return (
     <div>
       <Router>
-        {localStorage['access token'] &&
+        {localStorage['access token'] && 
         <>
         <Navbar1 setIsSubmitted={setIsSubmitted} setUsuariosEncontrados={setUsuariosEncontrados}/>
         <Routes>     
-          <Route exact path='/' element={<Home/>} />
+          <Route exact path='/' element={<Home />} />
           <Route exact path="/register/" element={<Register/>}/>   
           <Route exact path="/upload-photo" element={<UploadPhoto/>}/>   
           <Route exact path="/list-users/" element={<ListUsers usuariosEncontrados={usuariosEncontrados}/>}/>

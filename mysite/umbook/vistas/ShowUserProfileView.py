@@ -38,7 +38,5 @@ class ShowUserProfileView(GenericAPIView):
             "errors": None,
         }
 
-        print('show  user  profileview')
-
         return Response(data, status=200)
 
