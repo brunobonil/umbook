@@ -1,3 +1,5 @@
+from distutils.command.upload import upload
+from email.policy import default
 from django.db import models
 from django.db.models import CASCADE
 from django.contrib.auth.models import AbstractUser
@@ -36,3 +38,4 @@ class Foto(models.Model):
     caption = models.CharField(max_length=50)
     fecha = models.DateTimeField()
     album = models.ForeignKey(Album, on_delete=CASCADE)
+    imagen = models.ImageField(default=None)

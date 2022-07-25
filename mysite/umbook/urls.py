@@ -15,6 +15,7 @@ from .vistas.SingleNotificationView import SinleNotificationView
 from .vistas.ListFriendsView import ListFriendsView
 from .vistas.SingleUserView import SingleUserView
 from .vistas.ShowUserProfileView import ShowUserProfileView
+from .vistas.ViewAlbum import ViewAlbumView
 
 urlpatterns = [
 
@@ -32,6 +33,8 @@ urlpatterns = [
     path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
     path('deny_friend/<requestID>/', DenyFriendRequestView.as_view(), name='deny_friend'),
     path('friends/', ListFriendsView.as_view(), name='friends'),
+    path('album/<albumID>/', ViewAlbumView.as_view(), name='album'),
+
 
     # get specific user information from a notification
     path('usern/<notificationID>/', SingleUserView.as_view(), name='get_user'),

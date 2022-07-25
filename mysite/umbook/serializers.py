@@ -77,3 +77,8 @@ class AlbumSerializer(serializers.ModelSerializer):
             "usuario",
             "grupo",
         )
+
+class FotoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Foto
+        fields = "__all__"
