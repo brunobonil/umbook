@@ -1,6 +1,7 @@
 import { useState ,useEffect } from "react";
 import axios from "axios";
 import DeleteFriendBtn from "./DeleteFriendBtn";
+import { Link } from "react-router-dom";
 
 const ListFriends = () => {
 
@@ -41,7 +42,10 @@ const ListFriends = () => {
                 friends.map(friend =>
                     <div key={friend.pk}>
                         <li>
-                            {friend.username}
+                            <Link to={`/user/${friend.pk}`}>
+                                {friend.username}
+                            </Link>
+                            
                             <DeleteFriendBtn getFriends={getFriends} userID={friend.pk}/>
                         </li>
                         

@@ -13,3 +13,24 @@
   padding: 20px;
   background-color: #eeeeee;
 }
+
+.album-content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #d6d5d5;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  color: rgb(17, 123, 17);
+
+}
+
+.album-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 16px;
+}

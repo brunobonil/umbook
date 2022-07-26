@@ -9,6 +9,7 @@ import ListUsers from "./ListUsers";
 import { useState } from "react";
 import ListFriends from "./ListFriends";
 import UserNotifications from "./UserNotifications";
+import UserProfile from "./UserProfile";
 
 
 const Home = () => {
@@ -38,6 +39,7 @@ function App() {
           <Route exact path="/list-users/" element={<ListUsers usuariosEncontrados={usuariosEncontrados}/>}/>
           <Route exact path="/friends/" element={<ListFriends/>} />
           <Route exact path="/notifications" element={<UserNotifications/>}/>
+          <Route exact path="/user/:userID" element={<UserProfile/>}/>
         </Routes>            
         </>
         }
