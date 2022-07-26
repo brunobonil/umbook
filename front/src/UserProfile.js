@@ -36,7 +36,10 @@ const UserProfile = () => {
                     <h2>Albums del perfil</h2>
                     {userProfile.albums[0]?.map(album => 
                         <div key={album.pk}>
-                          <button className="album-button">{album.nombre}</button>  
+                            <Link to={`/album/${album.pk}`}>
+                                <button className="album-button">{album.nombre}</button>  
+                            </Link>
+
                         </div>
                         
                         

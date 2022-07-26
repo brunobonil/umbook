@@ -2,7 +2,7 @@ from operator import truediv
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
-from ..serializers import FotoSerializer
+from ..serializers import AlbumSerializer, FotoSerializer
 
 from ..models import Album, Foto, Grupo
 
@@ -28,6 +28,7 @@ class ViewAlbumView(GenericAPIView):
 
         data = {
             "result": {
+                "album": AlbumSerializer(album).data,
                 "photosList": FotoSerializer(photosList, many=True).data,
             }
         }

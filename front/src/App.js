@@ -10,6 +10,7 @@ import { useState } from "react";
 import ListFriends from "./ListFriends";
 import UserNotifications from "./UserNotifications";
 import UserProfile from "./UserProfile";
+import Album from "./Album";
 
 
 const Home = () => {
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="/friends/" element={<ListFriends/>} />
           <Route exact path="/notifications" element={<UserNotifications/>}/>
           <Route exact path="/user/:userID" element={<UserProfile/>}/>
+          <Route exact path="/album/:albumID" element={<Album/>}/>
         </Routes>            
         </>
         }
