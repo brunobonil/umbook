@@ -16,13 +16,14 @@ from .vistas.SingleNotificationView import SinleNotificationView
 from .vistas.ListFriendsView import ListFriendsView
 from .vistas.SingleUserView import SingleUserView
 from .vistas.ShowUserProfileView import ShowUserProfileView
+from .vistas.ShowMyUserProfileView import ShowMyUserProfileView
 from .vistas.ViewAlbum import ViewAlbumView
 
 urlpatterns = [
 
     # User module
     path('user/<userID>/', ShowUserProfileView.as_view(), name='show_user'),
-
+    path('my_user/<userName>/', ShowMyUserProfileView.as_view(), name='show_my_user'),
     # Notification module
     path('notifications/', UserNotificationsView.as_view(), name='notifications'),
     path('notifications/<notificationID>/', SinleNotificationView.as_view(), name='single_notification'),

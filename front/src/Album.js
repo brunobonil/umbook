@@ -33,7 +33,7 @@ const Album = () => {
                 <div>
                    <h1>album {album.nombre}</h1>  
                    {photosList.map((photo) => 
-                    <div className="album-content">
+                    <div key={photo.id} className="album-content">
                         <h2>{photo.caption}</h2> 
                         <p> {photo.imagen}</p>
                         <img src={'../umbook/mysite/fotos/restaurante-azul_nZ7ZNT5.jpg'}/>

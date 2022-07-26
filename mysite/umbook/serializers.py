@@ -60,6 +60,7 @@ class UsuarioProfileSerializer(serializers.ModelSerializer):
             "first_name",
             "last_name",
             "email",
+            "is_admin",
         ]
 
 class UsuarioAdminSerializer(serializers.ModelSerializer):
