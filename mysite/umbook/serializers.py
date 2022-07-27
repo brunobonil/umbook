@@ -85,12 +85,7 @@ class NotificacionesSerializers(serializers.ModelSerializer):
 class AlbumSerializer(serializers.ModelSerializer):
     class Meta:
         model = Album
-        fields = (
-            "pk",
-            "nombre",
-            "usuario",
-            "grupo",
-        )
+        fields = "__all__"
 
 class FotoSerializer(serializers.ModelSerializer):
     class Meta:

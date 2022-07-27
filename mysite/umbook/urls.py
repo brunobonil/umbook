@@ -18,6 +18,8 @@ from .vistas.SingleUserView import SingleUserView
 from .vistas.ShowUserProfileView import ShowUserProfileView
 from .vistas.ShowMyUserProfileView import ShowMyUserProfileView
 from .vistas.ViewAlbum import ViewAlbumView
+from .vistas.CreateAlbum import CreateAlbumView
+
 
 urlpatterns = [
 
@@ -35,7 +37,7 @@ urlpatterns = [
     path('accept_friend/<requestID>/', AcceptFriendRequestView.as_view(), name='accept_friend'),
     path('deny_friend/<requestID>/', DenyFriendRequestView.as_view(), name='deny_friend'),
     path('friends/', ListFriendsView.as_view(), name='friends'),
-    path('album/<albumID>/', ViewAlbumView.as_view(), name='album'),
+
 
 
     # get specific user information from a notification
@@ -51,5 +53,9 @@ urlpatterns = [
 
     # Admin module
     path('staff/user/', AdminUserListCreateView.as_view(), name='list/create_user'),
-    path('staff/user/<userID>/', AdminSingleUserView.as_view(), name='read/update_user_by_id')
+    path('staff/user/<userID>/', AdminSingleUserView.as_view(), name='read/update_user_by_id'),
+
+    # Album module
+    path('album/<albumID>/', ViewAlbumView.as_view(), name='album'),
+    path('create_album/', CreateAlbumView.as_view(), name='create_album'),
 ]
