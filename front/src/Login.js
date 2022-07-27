@@ -10,7 +10,19 @@ import "./login.css";
 const Login = ({setIsSubmitted, setUser}) => {
 
     const [message, setMessage] = useState(null);
-
+    function getMyUserProfile(){
+        console.log(`http://localhost:8000/api/my_user/${localStorage['username']}/`);
+        axios.get(`http://localhost:8000/api/my_user/${localStorage['username']}/`,
+        {
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem('access token')}`
+            }
+        }
+            ).then(resp => {
+                localStorage.setItem("user" , JSON.stringify(resp.data.result.user))
+                setUser(resp.data.result.user)
+            });        
+    }
     function logearUsuario(values){
       alert(JSON.stringify(values, null, 2));
       localStorage.setItem("username" , values.username);
@@ -27,7 +39,9 @@ const Login = ({setIsSubmitted, setUser}) => {
         localStorage.setItem("refresh token", response.data.refresh);
         setMessage('estas registrado');
         //setUser(values.username)
+        getMyUserProfile()
         setIsSubmitted(true)
+        
 
 
         })

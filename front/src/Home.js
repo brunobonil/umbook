@@ -8,7 +8,7 @@ const Home = () => {
     let user = JSON.parse(retrievedObject);
 
     useEffect(() => {
-        navigate(`/user/${user.pk}`)
+        {user && navigate(`/user/${user.pk}`)}
     }, [])
 }
  

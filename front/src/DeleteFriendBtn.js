@@ -5,7 +5,7 @@ import axios from 'axios';
 let DeleteFriendBtn = ({userID, getFriends}) => {
     let [eliminado, setEliminado] = useState(false);
 
-    function saludarDesdeBoton(){
+    function eliminarUsuario(){
         axios.delete(
             `http://localhost:8000/api/delete_friend/${userID}/`,
             {
@@ -29,7 +29,7 @@ let DeleteFriendBtn = ({userID, getFriends}) => {
         <>
         {
             !eliminado ? 
-            <button onClick={() => saludarDesdeBoton()}>
+            <button onClick={() => eliminarUsuario()}>
                 Eliminar amigo
             </button> 
             :

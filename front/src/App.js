@@ -11,12 +11,11 @@ import ListFriends from "./ListFriends";
 import UserNotifications from "./UserNotifications";
 import UserProfile from "./UserProfile";
 import Album from "./Album";
-import MyUserProfile from "./MyUserProfile";
 import Home from "./Home";
- 
+import NavbarAdmin from "./NavbarAdmin";
+import ListUsersAdmin from "./ListUsersAdmin";
 
 function App() {
-  console.log('local storage', localStorage)
   const [isSubmitted, setIsSubmitted] = useState(false);
   const[user, setUser] = useState('');
   const [usuariosEncontrados, setUsuariosEncontrados] = useState(null);
@@ -24,16 +23,21 @@ function App() {
 
   return (
     <div>
+
       <Router>
-        {localStorage['access token'] && 
+        
+        {localStorage['access token'] && localStorage['user'] &&
         <>
-        <MyUserProfile/>
-        <Navbar1 setIsSubmitted={setIsSubmitted} setUsuariosEncontrados={setUsuariosEncontrados}/>
+        { 
+          (JSON.parse(localStorage.getItem('user'))).is_admin?
+          <NavbarAdmin setIsSubmitted={setIsSubmitted} setUsuariosEncontrados={setUsuariosEncontrados}/>:
+          <Navbar1 setIsSubmitted={setIsSubmitted} setUsuariosEncontrados={setUsuariosEncontrados}/>}
         <Routes>     
           <Route exact path='/' element={<Home/>} />
           <Route exact path="/register/" element={<Register/>}/>   
           <Route exact path="/upload-photo" element={<UploadPhoto/>}/>   
           <Route exact path="/list-users/" element={<ListUsers usuariosEncontrados={usuariosEncontrados}/>}/>
+          <Route exact path="/list-users-admin/" element={<ListUsersAdmin usuariosEncontrados={usuariosEncontrados}/>}/>
           <Route exact path="/friends/" element={<ListFriends/>} />
           <Route exact path="/notifications" element={<UserNotifications/>}/>
           <Route exact path="/user/:userID" element={<UserProfile/>}/>
