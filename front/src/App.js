@@ -25,6 +25,7 @@ function App() {
     <div>
 
       <Router>
+        {console.log(localStorage)}
         
         {localStorage['access token'] && localStorage['user'] &&
         <>
