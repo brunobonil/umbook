@@ -35,8 +35,9 @@ const UserProfile = () => {
                 <div className="album-content">
                     <h2>Albums del perfil</h2>
                     {userProfile.albums[0]?.map(album => 
-                        <div key={album.pk}>
-                            <Link to={`/album/${album.pk}`}>
+                        <div key={album.id}>
+                            {console.log(album)}
+                            <Link to={`/album/${album.id}`}>
                                 <button className="album-button">{album.nombre}</button>  
                             </Link>
 
