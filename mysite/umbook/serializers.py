@@ -91,3 +91,8 @@ class FotoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Foto
         fields = "__all__"
+
+class GrupoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Grupo
+        fields = "__all__"
