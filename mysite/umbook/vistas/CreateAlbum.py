@@ -16,6 +16,7 @@ class CreateAlbumView(GenericAPIView):
     def post(self, request, **kwargs):
 
         usuario = request.user
+        print('\n \n \n', request.data ,'\n \n \n')
         grupo = Grupo.objects.get(pk=request.data['grupo'])
         data = {
             "nombre": request.data['nombre'],
