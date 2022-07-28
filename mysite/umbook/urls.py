@@ -19,6 +19,7 @@ from .vistas.ShowUserProfileView import ShowUserProfileView
 from .vistas.ShowMyUserProfileView import ShowMyUserProfileView
 from .vistas.ViewAlbum import ViewAlbumView
 from .vistas.CreateAlbum import CreateAlbumView
+from .vistas.ListGroups import ListGroups
 
 
 urlpatterns = [
@@ -58,4 +59,6 @@ urlpatterns = [
     # Album module
     path('album/<albumID>/', ViewAlbumView.as_view(), name='album'),
     path('create_album/', CreateAlbumView.as_view(), name='create_album'),
+    path('list_groups/', ListGroups.as_view(), name='list_groups'),
+
 ]
