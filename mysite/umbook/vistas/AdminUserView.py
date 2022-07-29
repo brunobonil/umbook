@@ -24,7 +24,7 @@ class AdminSingleUserView(RetrieveUpdateAPIView):
         IsAdmin,
     )
 
-    queryset = Usuario.objects.all()
+    queryset = Usuario.objects.filter(is_admin=False)
     serializer_class = UsuarioAdminSerializer
     lookup_url_kwarg = "userID"
 
@@ -40,7 +40,7 @@ class AdminUserListCreateView(ListCreateAPIView):
         IsAdmin,
     )
 
-    queryset = Usuario.objects.all()
+    queryset = Usuario.objects.filter(is_admin=False)
 
     def get_serializer_class(self):
         if self.request.method == "GET":
