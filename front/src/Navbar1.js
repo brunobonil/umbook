@@ -40,10 +40,17 @@ const Navbar1 = ({ setIsSubmitted, setUsuariosEncontrados}) => {
                         <Field id="search" name="search" placeholder="search friend" />
                         <button type="submit">Search user</button>
                     </Form>
-                </Formik>       
+                </Formik>    
+                <div>
                 <Link to="/notifications/">
                     <button>Notificaciones</button>
                 </Link>
+
+                <Link to="/create-album/">
+                    <button>Create Album</button>
+                </Link>
+                </div>   
+
                 
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">

@@ -1,8 +1,7 @@
 import { useState ,useEffect } from "react";
-import {Dropdown} from 'react-bootstrap'
+import {Dropdown, DropdownButton} from 'react-bootstrap'
 import axios from "axios";
-import DeleteFriendBtn from "./DeleteFriendBtn";
-import { Link } from "react-router-dom";
+
 
 const CreateAlbum = () => {
 
@@ -55,19 +54,13 @@ const CreateAlbum = () => {
 
     return (
 
-        <div>
+        <div style={{textAlign:"center"}}>
             <input placeholder="Name" />
-            <Dropdown onClick={() => getGrupos()}>
-                    <Dropdown.Toggle id="dropdown-basic">
-                        Grupo
-                    </Dropdown.Toggle>
-
-                    <Dropdown.Menu>
-                        {grupos.map(g => (
-                            <Dropdown.Item>{g.nombre}</Dropdown.Item>
-                        ))}
-                    </Dropdown.Menu>
-            </Dropdown>
+            <DropdownButton title="Grupo" onClick={() => getGrupos()}>
+                {grupos.map(g => (
+                    <Dropdown.Item>{g.nombre}</Dropdown.Item>
+                ))}
+            </DropdownButton>
             <button onClick={(n) => {getNombre(n)
                 createAlbum()}}>Create</button>
         </div>
